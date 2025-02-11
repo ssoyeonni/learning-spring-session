@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Quiz
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+server:
+  port: 80
+
+# jsp를 은닉 폴더에 개발(WEB-INF)
